@@ -1,7 +1,8 @@
 body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 20px auto;
     background: linear-gradient(lightblue, grey);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 section {
@@ -37,8 +38,9 @@ section {
 
 
 button {
+    font-family: inherit;
     position: relative;
-    background: green;
+    background: rgb(60, 174, 60);
     font-size: 12px;
     height: 30px;
     width: 140px;
