@@ -1,0 +1,56 @@
+body {
+    margin: 20px auto;
+    background: linear-gradient(lightblue, grey);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+section {
+    line-height: 30px;
+    margin: 0 auto;
+    width: 300px;
+    background-color: #423B3B;
+    border: 2px solid grey;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+.green {
+    color: greenyellow;
+    text-shadow: 0 0 3px grey;
+}
+#pass1, #pass2{
+    background: grey;
+    font-size: 12px;
+    height: 30px;
+    width: 140px;
+    color: greenyellow;
+    text-shadow: 0 0 3px grey;
+}
+.whiteTextShade {
+    text-shadow: 0 0 3px grey;
+    color: whitesmoke;
+}
+.space {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+button {
+    position: relative;
+    background: green;
+    font-size: 12px;
+    height: 30px;
+    width: 140px;
+    cursor: pointer;
+    padding: 5px 8px;
+    border: none;
+    border-radius: 3px;
+    margin: 20px 0;
+}
+#bottom-border {
+    padding: 0px;
+    margin: 0px auto ;
+    border-bottom: 3px solid wheat;
+    border-radius: 2px;
+}
